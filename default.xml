@@ -6,12 +6,12 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10" />
 
-  <project path="build" name="pa-gr/android_kernel_build" remote="github" revision="android12-5.10-marble">
+  <project path="build" name="hzpqtm/android_kernel_build" remote="github" revision="android12-5.10-marble">
     <linkfile dest="build.sh" src="build-ak3.sh"/>
   </project>
   <project path="AnyKernel3" name="ghostrider-reborn/AnyKernel3" remote="github" revision="marble-gki" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" />
-  <project path="common" name="ghostrider-reborn/android_kernel_common" remote="github" revision="android12-5.10-marble" />
+  <project path="common" name="hzpqtm/android_xiaomi_kernel_liuqin" remote="github" revision="main" />
   <project name="pa-gr/android_kernel_xiaomi_sm8450-modules" path="common/techpack" remote="github" revision="uvite"/>
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
